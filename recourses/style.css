@@ -1,0 +1,48 @@
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar{
+    background-color: beige;
+    text-align: center;
+}
+
+#photo{
+    height: 200px;
+    width: auto;
+    margin-right: 20px;
+}
+
+#section_about_me{
+    display: inline-flex;
+}
+
+.project_img{
+    height: 200px;
+    width: auto;
+}
+
+.projects{
+    border: 1px solid  black ;
+    width: 300px;
+}
+
+#projects_container{
+    display: inline-flex;
+}
+
+.skill_logo{
+    height: 60px;
+    width: auto;
+    margin: 10px;
+
+}
+
+#skill_container{
+    display: inline-flex;
+}
+
+#skills{
+    margin-top: 50px;
+}
