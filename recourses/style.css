@@ -19,17 +19,40 @@
 }
 
 .project_img{
-    height: 200px;
-    width: auto;
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    margin: 20px;
 }
 
-.projects{
+
+.project{
     border: 1px solid  black ;
-    width: 300px;
+    width: 250px;
+    text-align: center;
+    
 }
+
+#project2 img{
+    object-position: 10%;
+}
+#project4 img{
+    object-position: 20%;
+}
+
+.project_name{
+    background-color: aqua;
+}
+
+.inner_technology_img{
+    height: 30px;
+}
+
 
 #projects_container{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .skill_logo{
@@ -44,5 +67,10 @@
 }
 
 #skills{
+    margin-top: 50px;
+}
+
+#to_be_continued {
+    text-align: center;
     margin-top: 50px;
 }
