@@ -15,7 +15,12 @@
 }
 
 #section_about_me{
-    display: inline-flex;
+display: inline-flex;
+}
+
+
+#to_be_continued{
+    position: relative;
 }
 
 .project_img{
@@ -28,12 +33,16 @@
 .project{
     border: 1px solid  black ;
     width: 250px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-right: 5px;
-
+    background-color:lightcyan;
+    margin-bottom: 30px;
 }
+
+
 
 #project2 img{
     object-position: 10%;
@@ -44,7 +53,7 @@
 
 .project_name{
     background-color: aqua;
-    justify-self: flex-end;
+
 }
 
 .inner_technology_img{
@@ -61,12 +70,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
 }
 
 .project_description{
     margin-left: 15px;
-    display: none;
+}
+
+.project .project_description{
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.project:hover .project_description{
+    opacity: 1;
 }
 
 
@@ -74,7 +90,6 @@
     height: 60px;
     width: auto;
     margin: 10px;
-
 }
 
 #skill_container{
@@ -90,3 +105,50 @@
     margin-top: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+#contact_container{
+    display: inline-flex;
+    margin: 40px 60px;
+}
+
+
+#div_buttonlinks{
+    align-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+#div_text{
+    display: flex;
+    margin: 10px 70px ;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 3%;
+    min-width: 300px;
+}
+
+#QR{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+  
+}
+
+#QR img{
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.contact_button{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+}
